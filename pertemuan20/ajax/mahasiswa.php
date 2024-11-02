@@ -1,5 +1,4 @@
 <?php
-usleep(500000);
 require '../functions.php';
 $keyword = $_GET['keyword'];
 $query = "SELECT * FROM mahasiswa WHERE nama LIKE '$keyword%' OR nrp LIKE '$keyword%' OR email LIKE '$keyword%' OR jurusan LIKE '$keyword%' ";
